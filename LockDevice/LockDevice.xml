@@ -1,0 +1,13 @@
+<Extensions>
+  <Version>1.7</Version>
+  <Panel>
+    <Order>8</Order>
+    <PanelId>unlock</PanelId>
+    <Origin>local</Origin>
+    <Type>Home</Type>
+    <Icon>Home</Icon>
+    <Color>#C2C2C2</Color>
+    <Name>Unlock</Name>
+    <ActivityType>Custom</ActivityType>
+  </Panel>
+</Extensions>

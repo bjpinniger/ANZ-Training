@@ -1,0 +1,53 @@
+<Extensions>
+  <Version>1.7</Version>
+  <Panel>
+    <Order>2</Order>
+    <PanelId>proximity</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Sliders</Icon>
+    <Name>Proximity</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Cisco Proximity</Name>
+      <Row>
+        <Name>Proximity Mode</Name>
+        <Widget>
+          <WidgetId>proximityMode</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Proximity Availability</Name>
+        <Widget>
+          <WidgetId>proximityServicesText</WidgetId>
+          <Name/>
+          <Type>Text</Type>
+          <Options>size=3;align=right;fontSize=small</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>proximityAvailability</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Proximity Volume</Name>
+        <Widget>
+          <WidgetId>proximityVolume</WidgetId>
+          <Type>Slider</Type>
+          <Options>size=3</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Help</Name>
+        <Widget>
+          <WidgetId>proximityHelp</WidgetId>
+          <Type>Button</Type>
+          <Options>size=1;icon=help</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>

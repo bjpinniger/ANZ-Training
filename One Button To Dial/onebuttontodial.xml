@@ -1,0 +1,25 @@
+<Extensions>
+  <Version>1.7</Version>
+  <Panel>
+    <Order>2</Order>
+    <PanelId>OBTD</PanelId>
+    <Type>Home</Type>
+    <Icon>Handset</Icon>
+    <Name>Press me to dial</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Dialling</Name>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>text</WidgetId>
+          <Name>Number is being dialled</Name>
+          <Type>Text</Type>
+          <Options>size=4;align=center;fontSize=normal</Options>
+        </Widget>
+      </Row>
+      <PageId>speed_dial</PageId>
+      <Options>hideRowNames=1</Options>
+    </Page>
+  </Panel>
+</Extensions>
